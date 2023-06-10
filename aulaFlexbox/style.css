@@ -1,0 +1,35 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: lightblue;
+}
+main {
+    background-color: aquamarine;
+    height: 300px;
+}
+
+div{
+    border: solid 4px red;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(129, 18, 129);
+}
+
+.container{
+    display: flex;
+    /*flex-direction: row-reverse; */
+    justify-content: center; /*space-around deixa um espaço entre os elementos*/
+    flex-wrap: wrap; /*wrap o elemento vai para linha de baixo*/
+    align-content: center; /*alinha ao centro na vertical*/
+    gap: 10px 30px; /*primeiro valor cria uma espaço entre colunas e o segundo entre linhas*/
+
+}

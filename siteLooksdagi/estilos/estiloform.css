@@ -1,0 +1,6 @@
+form>input {
+    display: block;
+}
+#nome {
+    padding: 5px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de professores</title>
+        <script src="../script/cadastrar.js"></script>
+    </head>
+    <body>
+        <form action="#" method="post" id="formcadastro">
+            <header>
+                <h1>Cadastro de Professores</h1>
+
+            </header>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text">
+            <br><br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input id="sobrenome" type="text">
+            <br><br>
+            <label for="dtnascimento">Data de nascimento:</label>
+            <input id="dtnascimento" type="date">
+            <br><br>
+            <button type="button" id="btnCadastrar()" onclick="CadastroP()">Cadastrar</button>
+            <br><br>
+            <h1>Confirmação dos Dados Cadastrados</h1>
+            Nome: <label id="nomeresp"></label><br><br>
+            Sobrenome: <label id="sobrenomeresp"></label><br><br>
+            Data de Nascimento: <label id="dtnascimentoresp"></label><br>
+            <label id="documento"></label>
+        </form>
+
+    </body>
+</html>

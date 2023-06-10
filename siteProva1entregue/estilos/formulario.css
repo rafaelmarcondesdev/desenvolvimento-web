@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, gray, transparent);
+}
+h1 {
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    font-size: bold;
+}
+form{
+    background-color: gray;
+    height: 25px;
+    border-radius: 5px;
+    font-size: bold;
+}
+form.ns{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+form.et{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+form.en{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+form.me{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+form.su{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}

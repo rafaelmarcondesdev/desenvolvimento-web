@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números pares e impares</title>
+    <script type="text/javascript" src="../siteAula15/script/exibirparimpar.js"></script>
+</head>
+<body>
+    <form id="meuFormulario">
+        <h1 style="text-align: center;">Esta pagina exibe os números pares e ímpares de uma sequencia informada pelo usuário</h1>
+        <hr width="100%">
+        <label for="numero">Informe o valor final que deseja exibir os números pares e impares</label>
+        <input type="text" id="numero">
+        <p>
+            <button type="button" id="btnExibir" onclick="exibirParImpar()">Enviar</button>
+            <button type="reset" id="btnLimpar" onclick="Limpar()">Limpar</button>
+        </p>
+        Numeros Pares: <label id="nPares"></label>
+        <br><br>
+        Numeros Impares: <label id="nImpares"></label>
+    </form>
+</body>
+</html>

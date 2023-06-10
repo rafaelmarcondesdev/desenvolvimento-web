@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+header {
+    background-color: yellow;
+    grid-area: h;
+    /*grid-column: 1/3;     *shortcut de coluna
+    grid-row: 3/4;          *shortcut de linha*/
+}
+
+main {
+    background-color: blue;
+    grid-area: m;
+
+}
+
+aside {
+    background-color: green;
+    grid-area: a;
+
+}
+
+footer {
+    background-color: red;
+    grid-area: f;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /*2 colunas e o fr significa fração flexivel */
+    grid-template-rows: 20vh 70vh 10vh; /*3 linhas */
+    grid-gap: 10px 10px; /*primeiro valor e o gap da linha e o segundo e o gap da coluna gap significa distancia*/
+    grid-template-areas: "h h"
+    "m a"
+    "f f"
+
+}

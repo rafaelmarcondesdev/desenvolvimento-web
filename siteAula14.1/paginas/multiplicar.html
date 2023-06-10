@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Subtração</title>
+    <script>
+        function Calcular(form){
+
+            var multiplicar= eval (form.numero1.value)*eval (form.numero2.value);
+            form.resultado.value=multiplicar;
+           
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora somente subtração</h1>
+        <hr>
+    </header>
+    <main>
+        <form
+            action="#" method="post" name="Calculadora">
+                <input type="text" name="numero1" id="numero1">
+                <label name="operador" id="operador" > * </label>
+                <input type="text" name="numero2" id="numero2">
+                <input type="button" value=" = " onclick="Calcular(this.form)">
+                <input type="text" name="resultado">
+                <button type="reset"> Limpar </button>
+        </form>
+    </main>
+    <footer>
+        <br>
+        <hr>
+        17 de maio de 2023
+    </footer>
+</body>
+</html>

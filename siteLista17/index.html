@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="scripts/cadastrar.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Olá, preencha seus dados para realizar sua incrição</h1>
+    </header>
+    <form action="#" method="post" id="formcadasto" class="container">
+        <div id="d1">
+            <label for="nome">Nome Completo*</label>
+            <br>
+            <input id="nome" type="text">
+        </div>
+        <br><br>
+
+
+        <div id="d2">
+            <label for="email">E-mail*</label>
+            <br>
+            <input id="email" type="email">
+        </div>
+        <br><br>
+
+
+        <div id="d3">
+            <label for="dtnascimento">Data de Nascimento*</label>
+            <br>
+            <input id="dtnascimento" type="date">
+        </div>
+        <br><br>
+
+
+        <div id="d4">
+            <label for="celular">Celular Principal*</label>
+            <br>
+            <input id="celular" type="text">
+        </div>
+        <br><br>
+
+        
+        <div id="d5">
+            <label for="telefone">Telefone Residencial*</label>
+            <br>
+            <input id="telefone" type="text">
+        </div>
+        <br><br>
+
+        
+        <p id="d6">Gênero:
+            <br>
+            Masculino:<input type="radio" name="sex">Feminino:<input type="radio" name="sex">
+        </p>
+
+        <p id="d7">
+            <button type="button" id="btnproximo" onclick="Proximo()">Proximo</button>
+        </p>
+
+        <div id="d8">
+            <h3>Dados Cadastrais: </h3>
+            Nome: <label id="nomeresp"></label><br>
+            Email: <label id="emailresp"></label><br>
+            Data de Nascimento: <label id="dtnascimentoresp"></label><br>
+            Celular Principal: <label id="celularresp"></label><br>
+            Telefone Residencial: <label id="telefoneresp"></label><br>
+            Gênero: <label id="generoresp"></label>
+        </div>
+
+        <div id="d9">
+            <h3>Detalhes Cadastro: </h3>
+            Data e hora: <label></label><br>
+            Apenas dia: <label id="datadia"></label><br>
+            Apenas mês: <label></label><br>
+            Apenas dia da semana: <label></label><br>
+            Apenas horas e minutos: <label></label>
+        </div>
+
+
+    </form>
+    <footer>Criado por <a href="" target="_blank">Rafael</a></footer>
+</body>
+</html>
