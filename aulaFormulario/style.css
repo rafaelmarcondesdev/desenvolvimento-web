@@ -18,6 +18,8 @@
 }
 
 fieldset {
+    display: flex;
+    gap: 20px;
     border: 0; /*border 0 vai tirar a borda que vem automaticamente do fieldset*/
 }
 

@@ -11,7 +11,7 @@ body{
     background-color: lightblue;
 }
 main {
-    background-color: aquamarine;
+    background-color: rgb(5, 119, 81);
     height: 300px;
 }
 
@@ -33,3 +33,4 @@ div{
     gap: 10px 30px; /*primeiro valor cria uma espaço entre colunas e o segundo entre linhas*/
 
 }
+
